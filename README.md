@@ -23,6 +23,9 @@ stored_data = {
 
 ---
 
+
+
+
 ### 1. Passkeys Must Be Hashed (e.g., SHA-256) 🔑
 - All passkeys must be hashed before storage to ensure security.
 - Use hashing algorithms like **SHA-256** to protect user passkeys.
@@ -46,6 +49,9 @@ stored_data = {
     - If there are **3 failed attempts**, the user will be redirected to the **Login Page** for reauthorization 🔄.
   
 - **Login Page**: A simple login mechanism before the user can retry their actions 🔑.
+
+
+---
 
 ## 🚀 Additional Challenges
 
